@@ -1,9 +1,4 @@
-$white: #efeee9;
-$beige: #eeebdf;
-$green: #16c2aa;
-$text-color: #455a64;
-$grey: #373e42;
-$light-grey: #dfdcd5;
+@import './common/_variables.scss';
 
 @import 'normalize.css';
 @import './layout/fonts.scss';
@@ -11,5 +6,7 @@ $light-grey: #dfdcd5;
 
 @import './icons/_sass-inline-svg.scss';
 @import './icons/_sass-inline-svg-data.scss';
+
+@import './pages/**/*';
 
 @import './blocks/**/*';

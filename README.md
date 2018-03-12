@@ -11,3 +11,5 @@
 1. Клонировать проект
 2. npm i
 3. npm start
+
+[Demo]: https://alekseygunchin.github.io/loftshcool-night-ur-3/public/

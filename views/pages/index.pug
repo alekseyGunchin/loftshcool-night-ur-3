@@ -4,4 +4,19 @@ block variables
   - var title = 'Главная страница'
 
 block content
-  h1 Главная страница
+  section.section.section-entrance
+    .container.container-entrance
+      .btn-entrance
+        a(class='btn-entrance__link', href='#') Авторизация
+      .form-entrance-wrap
+        .form-entrance.form-entrance__login
+          include ../blocks/login.pug
+        .form-entrance.form-entrance__welcome.form-entrance_active
+          include ../blocks/welcome.pug
+      .descr-entrance
+        span.descr-entrance__text
+          | &#169; Алексей Гунчин | созданно с любовью в LoftSchool | 2018
+
+
+
+

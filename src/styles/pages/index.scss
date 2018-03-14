@@ -1,0 +1,90 @@
+.section-entrance{
+  background: url("../images/bg/login-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container-entrance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.btn-entrance{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.btn-entrance__link{
+  display: inline-block;
+  width: 180px;
+  height: 45px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+  margin: 25px 100px 0 auto;
+}
+
+.form-entrance-wrap{
+  margin-top: auto;
+  width: 380px;
+  height: 395px;
+}
+
+.descr-entrance{
+  margin-top: auto;
+}
+
+.descr-entrance__text{
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.form-entrance{
+  display: none;
+}
+
+.form-entrance__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  background: rgba(#1c1f29, .5);
+}
+
+.form-entrance__btn{
+  height: 45px;
+  background: $blue;
+}
+
+.form-entrance_active{
+  display: inherit;
+}
+
+.btn-form__link{
+  display: inline-block;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  border-right: 2px solid yellow;
+  box-sizing: border-box;
+  &:last-child{
+    border: none;
+  }
+  &:hover{
+    background: darken($blue, 10%);
+  }
+}
+
+.info-welcome__pic{
+  border-radius: 50%;
+}

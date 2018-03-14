@@ -1,0 +1,28 @@
+.social{
+  display: flex;
+  margin-top: 20px;
+}
+
+.social__link-pic{
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.social__link{
+  margin: 0 5px;
+}
+
+.social__link-vk{
+  background-image: inline-svg('vk', #0a43a9);
+}
+
+.social__link-gh{
+  background-image: inline-svg('github', #0a43a9);
+}
+
+.social__link-ln{
+  background-image: inline-svg('in', #0a43a9);
+}
